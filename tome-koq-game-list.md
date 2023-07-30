@@ -2,7 +2,6 @@
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart)
 * [BIOHAZARD RE:4](https://www.residentevil.com/re4/en-asia/)
 * [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/)
-*
 * [BattleBit Remastered](https://joinbattlebit.com/)
 * [Danganronpa: Trigger Happy Havoc](https://store.steampowered.com/app/413410/_/)
 * [Dave the Diver](https://mintrocketgames.com/en/DaveTheDiver)
