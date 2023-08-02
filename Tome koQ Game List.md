@@ -19,6 +19,7 @@
 * [Dead Space](https://www.ea.com/ja-jp/games/dead-space) played on 2023/07/30
 * [Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/) played on 2021/05/26, 2021/07/17, 2021/07/19, 2021/07/20, 2021/07/24, 2021/07/25, 2021/07/27
 * [Diablo IV](https://diablo4.blizzard.com/ja-jp/) played on 2023/06/01-2023/07/10, 2023/07/21-2023/07/27
+* [ELDEN RING](https://www.eldenring.jp/index.html) played on 2022/02/24-2022/03/08, 2022/03/20, 2022/03/21, 2022/04/09, 2022/04/10, 2022/04/23, 2022/04/30, 2022/05/01
 * [ENDER LILIES: Quietus of the Knights](https://en.enderlilies.com/) played on 2021/08/06, 2021/08/09
 * [Eronoctosis: Put Yourself Together](https://store.steampowered.com/app/1683860/Eronoctosis_Put_Yourself_Together/) played on 2021/10/24
 * [Exoprimal](https://www.exoprimal.com/en-asia/) played on 2023/07/15
@@ -39,6 +40,7 @@
 * [NARAKA: BLADEPOINT](https://www.narakathegame.com/) played on 2021/08/12
 * [NKODICE](https://store.steampowered.com/app/1510950/NKODICE/) played on 2021/06/20
 * [Old Coin Pusher Friends 2](https://store.steampowered.com/app/2281360/_/) played on 2023/05/26
+* [Overwatch 2](https://overwatch.blizzard.com/ja-jp/) played on 2022/10/08, 2022/10/09
 * [Pacify](https://store.steampowered.com/app/967050/Pacify/) played on 2021/08/04
 * [Pineapple on pizza](https://www.majorariatto.com/pineapple-on-pizza) played on 2023/04/05
 * [Pokémon Brilliant Diamond and Pokémon Shining Pearl](https://www.pokemon.co.jp/ex/bdsp/ja/) played on 2021/11/19-2021/11/24, 2021/11/26, 2021/11/27, 2021/12/09, 2021/12/10, 2021/12/14
