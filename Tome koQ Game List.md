@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # 🐒Tome koQ Game List🐒
 
 * [47都道府県名を答える都道府県クイズ](https://www.start-point.net/map_quiz/nihonchizu/) played on 2023/05/20

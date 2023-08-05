@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 # 🐒Tome koQ Game List🐒
 
 2021/04/25（息根とめるデビュー）以降、[息根とめる](https://www.twitch.tv/tomeru1)と [koQchan](https://www.twitch.tv/koqchan) が配信でプレイしたゲームの一覧を管理する。
