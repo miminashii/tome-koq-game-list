@@ -7,18 +7,18 @@
 * [Animal Fight Club](https://store.steampowered.com/app/1022780/Animal_Fight_Club/) played on 2021/10/03
 * [Apex Legends](https://www.ea.com/ja-jp/games/apex-legends) played on 2021/04/27, 2021/04/28, 2021/05/03, 2021/07/15, 2021/07/29, 2021/07/30, 2021/08/06, 2021/08/08, 2021/08/09, 2021/08/10, 2021/08/16, 2021/09/05-2021/09/23, 2021/10/01, 2021/10/02, 2021/10/19, 2021/10/20, 2021/11/03, 2021/11/06, 2021/11/07, 2021/11/09
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
-* [BIOHAZARD RE:4](https://www.residentevil.com/re4/en-asia/) played on 2023/04/08-2023/04/11
-* [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/05/30, 2021/06/01, 2021/06/03
 * [BattleBit Remastered](https://joinbattlebit.com/) played on 2023/07/17
 * [Battlefield 2042](https://www.ea.com/ja-jp/games/battlefield/battlefield-2042) played on 2021/11/14, 2021/11/15
+* [BIOHAZARD RE:4](https://www.residentevil.com/re4/en-asia/) played on 2023/04/08-2023/04/11
+* [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/05/30, 2021/06/01, 2021/06/03
 * [Bum Simulator](https://store.steampowered.com/app/855740/Bum_Simulator/) played on 2021/08/29, 2021/09/01
 * [Creed: Rise to Glory](https://store.steampowered.com/app/804490/Creed_Rise_to_Glory/) played on 2022/01/18, 2022/02/03, 2022/02/12
 * [Cuphead](https://store.steampowered.com/app/268910/Cuphead/) played on 2021/12/22, 2021/12/23
 * [Cyberpunk 2077](https://www.cyberpunk.net/jp/ja/)（冒頭キャラメイクのみプレイ） played on 2022/12/30
-* [DARK SOULS III](https://store.steampowered.com/app/374320/DARK_SOULS_III/) played on 2022/01/09, 2022/01/10, 2022/01/15, 2022/01/16, 2022/01/22, 2022/01/23, 2022/01/29, 2022/01/30, 2022/02/05
-* [DARK SOULS II](https://store.steampowered.com/app/236430/DARK_SOULS_II/) played on 2021/12/30, 2021/12/31, 2022/01/02, 2022/01/04, 2022/01/05, 2022/01/08
-* [DARK SOULS: REMASTERED](https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/) played on 2021/12/04, 2021/12/05, 2021/12/11, 2021/12/18, 2021/12/19, 2021/12/26, 2021/12/29
 * [Danganronpa: Trigger Happy Havoc](https://store.steampowered.com/app/413410/_/) played on 2023/07/18
+* [DARK SOULS II](https://store.steampowered.com/app/236430/DARK_SOULS_II/) played on 2021/12/30, 2021/12/31, 2022/01/02, 2022/01/04, 2022/01/05, 2022/01/08
+* [DARK SOULS III](https://store.steampowered.com/app/374320/DARK_SOULS_III/) played on 2022/01/09, 2022/01/10, 2022/01/15, 2022/01/16, 2022/01/22, 2022/01/23, 2022/01/29, 2022/01/30, 2022/02/05
+* [DARK SOULS: REMASTERED](https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/) played on 2021/12/04, 2021/12/05, 2021/12/11, 2021/12/18, 2021/12/19, 2021/12/26, 2021/12/29
 * [Dave the Diver](https://mintrocketgames.com/en/DaveTheDiver)（冒頭少しだけプレイ） played on 2023/07/17
 * [Dead Space](https://www.ea.com/ja-jp/games/dead-space) played on 2023/07/30
 * [Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/) played on 2021/05/26, 2021/07/17, 2021/07/19, 2021/07/20, 2021/07/24, 2021/07/25, 2021/07/27
@@ -27,15 +27,16 @@
 * [ENDER LILIES: Quietus of the Knights](https://en.enderlilies.com/) played on 2021/08/06, 2021/08/09
 * [Eronoctosis: Put Yourself Together](https://store.steampowered.com/app/1683860/Eronoctosis_Put_Yourself_Together/) played on 2021/10/24
 * [Exoprimal](https://www.exoprimal.com/en-asia/) played on 2023/07/15
+* [fingger](https://fingger.com/) played on 2021/10/11, 2021/10/17, 2021/10/22
 * [Fit Boxing 2](https://fitboxing.net/2/) played on 2021/11/01
 * [GeoGuessr](https://www.geoguessr.com/ja) played on 2021/11/28
 * [Grand Theft Auto V](https://www.rockstargames.com/jp/gta-v) played on 2021/06/19, 2021/06/21, 2021/06/23, 2021/06/28, 2021/07/05, 2021/07/09
-* [HITMAN 3](https://store.steampowered.com/app/1659040/HITMAN_3/) played on 2021/11/11
 * [Hand Simulator: Survival](https://store.steampowered.com/app/924140/Hand_Simulator_Survival/) played on 2022/05/20
+* [HITMAN 3](https://store.steampowered.com/app/1659040/HITMAN_3/) played on 2021/11/11
 * [Honkai: Star Rail](https://hsr.hoyoverse.com/en-us/home?utm_source=hsrofficialweb&utm_medium=fab&utm_campaign=button) played on 2023/04/26, 2023/04/27
 * [It Takes Two](https://www.ea.com/ja-jp/games/it-takes-two) played on 2021/05/06
-* [LITTLE NIGHTMARES](https://ln.bn-ent.net/) played on 2021/12/16
 * [League of Legends](https://www.leagueoflegends.com/ja-jp/) played on 2023/04/01, 2023/04/05, 2023/04/06, 2023/05/07-2023/05/09, 2023/05/16, 2023/05/24
+* [LITTLE NIGHTMARES](https://ln.bn-ent.net/) played on 2021/12/16
 * [Lobotomy Corporation | Monster Management Simulation](https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/) played on 2021/08/18
 * [Lords Mobile](https://lordsmobile.igg.com/jp/) played on 2021/08/07, 2021/08/21
 * [Minecraft](https://www.minecraft.net/ja-jp) played on 2021/09/29, 2021/10/05, 2021/10/13, 2021/10/18, 2021/10/21, 2021/10/26, 2021/10/30, 2022/06/24
@@ -67,11 +68,10 @@
 * [The Outlast Trials](https://store.epicgames.com/en-US/p/the-outlast-trials) played on 2023/05/19, 2023/05/20
 * [Thief Simulator](https://store.steampowered.com/app/704850/Thief_Simulator/) played on 2021/12/21
 * [VALORANT](https://playvalorant.com/ja-jp/) played on 2023/05/26, 2023/05/27, 2023/05/31, 2023/06/01
-* [VR Kanojo](http://old.illusion.jp/preview/vrkanojo/vrkanojo.php#conthome) played on 2021/11/29, 2021/12/07
 * [Viking Rise](https://vr.igg.com/) played on 2023/05/06, 2023/05/07, 2023/05/19
+* [VR Kanojo](http://old.illusion.jp/preview/vrkanojo/vrkanojo.php#conthome) played on 2021/11/29, 2021/12/07
 * [Wild Hearts](https://www.ea.com/ja-jp/games/wild-hearts/wild-hearts) played on 2023/02/17
 * [Wo Long: Fallen Dynasty](https://teamninja-studio.com/wolong/) played on 2023/03/03-2023/03/07, 2023/03/09
-* [fingger](https://fingger.com/) played on 2021/10/11, 2021/10/17, 2021/10/22
 * [そろそろ寿司を食べないと死ぬぜ！](https://store.steampowered.com/app/2000280/_/?l=japanese) played on 2022/01/05
 * [みんなのリズム天国](https://www.nintendo.co.jp/wii/somj/) played on 2021/09/28, 2021/10/04, 2021/10/21, 2021/10/28
 * [やわらかあたま塾 いっしょにあたまのストレッチ](https://www.nintendo.co.jp/switch/azlsa/) played on 2021/12/06
