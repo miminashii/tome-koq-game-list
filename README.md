@@ -18,3 +18,8 @@
       ```bash
       slmd 'Tome koQ Game List.md' -i -o
       ```
+
+## Acknowledgements
+
+* [息根とめる 非公式 wiki](https://wikiwiki.jp/sinsogumi/%E6%81%AF%E6%A0%B9%E3%81%A8%E3%82%81%E3%82%8B)
+  * 息根とめるが外枠コラボでプレイしたゲームを記載する際に参考にさせていただきました。

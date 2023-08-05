@@ -16,6 +16,7 @@
 * [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/05/30, 2021/06/01, 2021/06/03
 * [Bloodborne](https://www.playstation.com/ja-jp/games/bloodborne/) played on 2022/02/06, 2022/02/11-2022/02/13, 2022/02/19, 2022/02/20
 * [Bum Simulator](https://store.steampowered.com/app/855740/Bum_Simulator/) played on 2021/08/29, 2021/09/01
+* [CODENAMES ONLINE](https://codenames.game/) played on 2022/03/27
 * [Creed: Rise to Glory](https://store.steampowered.com/app/804490/Creed_Rise_to_Glory/) played on 2022/01/18, 2022/02/03, 2022/02/12
 * [Cuphead](https://store.steampowered.com/app/268910/Cuphead/) played on 2021/12/22, 2021/12/23
 * [Cyberpunk 2077](https://www.cyberpunk.net/jp/ja/)（冒頭キャラメイクのみプレイ） played on 2022/12/30
@@ -38,6 +39,7 @@
 * [Fit Boxing 2](https://fitboxing.net/2/) played on 2021/11/01
 * [GeoGuessr](https://www.geoguessr.com/ja) played on 2021/11/28
 * [Ghost of Tsushima](https://www.suckerpunch.com/category/games/ghostoftsushima/) played on 2022/07/10, 2022/07/16, 2022/07/17, 2022/07/23, 2022/07/24, 2022/07/31, 2022/08/06
+* [God Field](https://godfield.net/) played on 2021/11/25
 * [God of War](https://store.steampowered.com/app/1593500/God_of_War/) played on 2022/08/07
 * [Grand Theft Auto V](https://www.rockstargames.com/jp/gta-v) played on 2021/06/19, 2021/06/21, 2021/06/23, 2021/06/28, 2021/07/05, 2021/07/09
 * [Hand Simulator: Survival](https://store.steampowered.com/app/924140/Hand_Simulator_Survival/) played on 2022/05/20
@@ -58,6 +60,7 @@
 * [NEEDY GIRL OVERDOSE](https://whysoserious.jp/needy/) played on 2022/01/21, 2022/05/08, 2022/05/20, 2022/07/01, 2022/07/02
 * [NKODICE](https://store.steampowered.com/app/1510950/NKODICE/) played on 2021/06/20
 * [Old Coin Pusher Friends 2](https://store.steampowered.com/app/2281360/_/) played on 2023/05/26
+* [Overcooked! 2](https://store.steampowered.com/app/728880/Overcooked_2/) played on 2021/05/27
 * [Overwatch 2](https://overwatch.blizzard.com/ja-jp/) played on 2022/10/08, 2022/10/09
 * [Pacify](https://store.steampowered.com/app/967050/Pacify/) played on 2021/08/04
 * [Passpartout: The Starving Artist](https://store.steampowered.com/app/582550/Passpartout_The_Starving_Artist/) played on 2022/02/17
@@ -65,12 +68,15 @@
 * [Pokémon Brilliant Diamond and Pokémon Shining Pearl](https://www.pokemon.co.jp/ex/bdsp/ja/) played on 2021/11/19-2021/11/24, 2021/11/26, 2021/11/27, 2021/12/09, 2021/12/10, 2021/12/14
 * [Pokémon Legends: Arceus](https://www.pokemon.co.jp/ex/legends_arceus/ja/) played on 2022/01/28
 * [Pokémon UNITE](https://www.pokemonunite.jp/ja/) played on 2021/06/24, 2021/07/21, 2021/07/22
+* [Pummel Party](https://store.steampowered.com/app/880940/Pummel_Party/) played on 2021/11/16
+* [Quest Rooms](https://store.steampowered.com/app/1234550/Quest_Rooms/) played on 2021/11/25
 * [Remnant II](https://store.steampowered.com/app/1282100/Remnant_II/) played on 2023/07/28-2023/07/30
+* [Resident Evil 7: Biohazard](http://residentevil7.com/) played on 2021/06/26
 * [Ring Fit Adventure](https://www.nintendo.co.jp/ring/) played on 2021/06/28, 2021/08/25, 2022/06/06, 2022/09/29
 * [Ruined King](https://www.ruinedking.com/ja-jp/) played on 2021/11/17
 * [SCP: Secret Files](https://store.steampowered.com/app/1718130/SCP/) played on 2022/09/20, 2022/09/26, 2022/09/27
 * [Sekiro: Shadows Die Twice](https://www.sekiro.jp/) played on 2021/06/06-2021/06/08, 2021/06/14-2021/06/16, 2022/02/18
-* [Splatoon 3](https://www.nintendo.co.jp/switch/av5ja/index.html) played on 2022/09/12, 2022/09/18, 2022/10/08
+* [Splatoon 3](https://www.nintendo.co.jp/switch/av5ja/index.html) played on 2022/09/12, 2022/09/18, 2022/09/19, 2022/09/25, 2022/10/08
 * [Starship Troopers: Extermination](https://starshiptroopersextermination.com/) played on 2023/05/18
 * [SuchArt: Genius Artist Simulator](https://store.steampowered.com/app/1293180/SuchArt/) played on 2021/07/30
 * [Surgeon Simulator 2](https://www.surgeonsim.com/) played on 2021/07/02
@@ -99,6 +105,8 @@
 * [ベヨネッタ](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
 * [メイドインアビス 闇を目指した連星](https://www.spike-chunsoft.co.jp/miabyss/top.html) played on 2022/09/06, 2022/09/08
 * [不思議のダンジョン 風来のシレン5plus](https://www.spike-chunsoft.co.jp/shiren5plus/) played on 2022/05/14
+* [亡霊島殺人事件 Final loop【マーダーミステリーonline】](https://booth.pm/ja/items/3608958) played on 2022/03/25
+* [亡霊島殺人事件 Next loop【マーダーミステリーonline】](https://booth.pm/ja/items/1701643) played on 2021/07/28
 * [亡霊島殺人事件【マーダーミステリーonline】](https://booth.pm/ja/items/1624107) played on 2021/06/29
 * [刀剣乱舞](https://games.dmm.com/detail/tohken) played on 2023/07/27
 * [声で導け！脱出のアリア](http://www.moguragames.com/entry/escape-aria/) played on 2022/02/02
