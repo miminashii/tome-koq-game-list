@@ -11,6 +11,7 @@
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
 * [BattleBit Remastered](https://joinbattlebit.com/) played on 2023/07/17
 * [Battlefield 2042](https://www.ea.com/ja-jp/games/battlefield/battlefield-2042) played on 2021/11/14, 2021/11/15
+* [Bayonetta](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
 * [BBQ Simulator: The Squad](https://store.steampowered.com/app/1755350/BBQ_Simulator_The_Squad/) played on 2022/06/15
 * [BIOHAZARD RE:4](https://www.residentevil.com/re4/en-asia/) played on 2023/04/08-2023/04/11
 * [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/05/30, 2021/06/01, 2021/06/03
@@ -103,7 +104,6 @@
 * [スーパーボンバーマン R オンライン](https://www.konami.com/games/bomberman/online/jp/ja/) played on 2021/06/11, 2021/06/25
 * [トロッコ問題 of アルマゲドン](https://plicy.net/GamePlay/157948) played on 2021/07/04
 * [ハッピークズトピア](https://happykuzutopia.cyberstep.com/) played on 2021/10/14
-* [ベヨネッタ](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
 * [メイドインアビス 闇を目指した連星](https://www.spike-chunsoft.co.jp/miabyss/top.html) played on 2022/09/06, 2022/09/08
 * [不思議のダンジョン 風来のシレン5plus](https://www.spike-chunsoft.co.jp/shiren5plus/) played on 2022/05/14
 * [亡霊島殺人事件 Final loop【マーダーミステリーonline】](https://booth.pm/ja/items/3608958) played on 2022/03/25
