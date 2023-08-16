@@ -2,7 +2,7 @@ on: [push, pull_request]
 
 jobs:
   format:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
@@ -17,7 +17,7 @@ jobs:
         ls -a
         slmd -h
         cat 'Tome koQ Game List.md'
-        slmd 'Tome koQ Game List.md' -i
+        slmd 'Tome koQ Game List.md' -i -o
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
       with:
