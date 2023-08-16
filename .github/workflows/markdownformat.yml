@@ -16,7 +16,7 @@ jobs:
         pwd
         ls -a
         slmd -h
-        slmd 'Tome koQ Game List.md' -i -o
+        slmd -i -o 'Tome koQ Game List.md'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
       with:
