@@ -12,12 +12,6 @@
   * played on yyyy/mm/dd に関して
     * 実際にゲームがプレイされた日付（JST）を指します。
     * 3 日以上連続でプレイした場合は、例えば 2023/07/31-2023/08/02 のように - で期間指定する形で記載することもできます。
-* 大体アルファベット順っぽい感じで並ぶようにしてください（TODO push したら自動で整列されるようにする）
-  * [slmd](https://github.com/lqez/slmd) で以下のようにソートすることを推奨。
-
-      ```bash
-      slmd 'Tome koQ Game List.md' -i -o
-      ```
 
 ## Acknowledgements
 

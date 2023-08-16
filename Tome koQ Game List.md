@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD013 -->
 # 🐒Tome koQ Game List🐒
 
+* [1](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
 * [47都道府県名を答える都道府県クイズ](https://www.start-point.net/map_quiz/nihonchizu/) played on 2023/05/20
 * [Aion](https://www.aiononline.com/en-us) played on 2021/07/14
 * [Among Us](http://www.h2int.com/games/among-us/) played on 2021/08/11

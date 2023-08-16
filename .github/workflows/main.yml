@@ -1,0 +1,34 @@
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DavidAnson/markdownlint-cli2-action@v11
+        with:
+          globs: |
+            *.md
+  sort_list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Sort Tome koQ Game List
+        run: |
+          pip install --upgrade pip
+          pip install slmd
+          slmd 'Tome koQ Game List.md' -i -o
+          ret=$?
+          if [ $ret -ne 0 ]; then
+            echo 'Sorted!'
+          else
+            echo 'Nothing to sort.'
+          fi
+        continue-on-error: true
+      - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+        with:
+          commit_message: Sort Tome koQ Game List
