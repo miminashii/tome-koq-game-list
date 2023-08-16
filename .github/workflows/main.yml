@@ -22,6 +22,12 @@ jobs:
           pip install --upgrade pip
           pip install slmd
           slmd 'Tome koQ Game List.md' -i -o
+          ret=$?
+          if [ $ret -ne 0 ]; then
+            echo 'Sorted!'
+          else
+            echo 'Nothing to sort.'
+          fi
         continue-on-error: true
       - uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
