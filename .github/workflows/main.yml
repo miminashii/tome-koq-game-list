@@ -29,6 +29,7 @@ jobs:
             echo 'Nothing to sort.'
           fi
         continue-on-error: true
-      - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+      - name: Auto commit
+        uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
           commit_message: Sort Tome koQ Game List
