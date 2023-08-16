@@ -14,6 +14,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install slmd
         pwd
+        slmd -h
         slmd 'Tome koQ Game List.md' -i -o
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
