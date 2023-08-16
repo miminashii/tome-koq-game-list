@@ -15,7 +15,8 @@ jobs:
         pip install slmd
         pwd
         slmd -h
-        slmd 'Tome koQ Game List.md' -i -o
+        cat "koQ Game List.md" | head -n 5
+        slmd "Tome koQ Game List.md" -i -o
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
