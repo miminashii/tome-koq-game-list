@@ -55,6 +55,7 @@
 * [Mario Kart 8 Deluxe](https://www.nintendo.co.jp/switch/aabpa/index.html) played on 2022/05/27
 * [Mario Kart Live: Home Circuit](https://www.nintendo.co.jp/switch/rmaaa/index.html) played on 2022/04/29
 * [Minecraft](https://www.minecraft.net/ja-jp) played on 2021/09/29, 2021/10/05, 2021/10/13, 2021/10/18, 2021/10/21, 2021/10/26, 2021/10/30, 2022/06/24
+* [Minesweeper](https://g.co/kgs/fUS1C1) played on 2023/05/20
 * [Monster Hunter Rise: Sunbreak](https://www.monsterhunter.com/rise-sunbreak/ja/) played on 2022/07/05, 2022/07/22, 2022/08/14, 2022/08/17
 * [Monster Hunter Rise](https://www.monsterhunter.com/rise/ja/) played on 2021/04/28-2021/04/30, 2021/05/02, 2022/01/14, 2022/01/15
 * [Mother Simulator](https://store.steampowered.com/app/802730/Mother_Simulator/) played on 2021/06/13
@@ -116,4 +117,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Minesweeper](https://g.co/kgs/fUS1C1) played on 2023/05/20
