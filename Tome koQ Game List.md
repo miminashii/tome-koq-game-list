@@ -103,7 +103,7 @@
 * [スーパーボンバーマン R オンライン](https://www.konami.com/games/bomberman/online/jp/ja/) played on 2021/06/11, 2021/06/25
 * [トロッコ問題 of アルマゲドン](https://plicy.net/GamePlay/157948) played on 2021/07/04
 * [ハッピークズトピア](https://happykuzutopia.cyberstep.com/) played on 2021/10/14
-* [ベヨネッタ](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
+* [Bayonetta](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
 * [メイドインアビス 闇を目指した連星](https://www.spike-chunsoft.co.jp/miabyss/top.html) played on 2022/09/06, 2022/09/08
 * [不思議のダンジョン 風来のシレン5plus](https://www.spike-chunsoft.co.jp/shiren5plus/) played on 2022/05/14
 * [亡霊島殺人事件 Final loop【マーダーミステリーonline】](https://booth.pm/ja/items/3608958) played on 2022/03/25
