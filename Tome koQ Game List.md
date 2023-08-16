@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD013 -->
 # 🐒Tome koQ Game List🐒
 
+* [1](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
 * [47都道府県名を答える都道府県クイズ](https://www.start-point.net/map_quiz/nihonchizu/) played on 2023/05/20
 * [Aion](https://www.aiononline.com/en-us) played on 2021/07/14
 * [Among Us](http://www.h2int.com/games/among-us/) played on 2021/08/11
@@ -116,4 +117,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [1](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
