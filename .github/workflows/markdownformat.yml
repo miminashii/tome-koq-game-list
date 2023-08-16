@@ -16,8 +16,8 @@ jobs:
         pwd
         ls -a
         slmd -h
-        slmd -i -o 'Tome koQ Game List.md'
-      continue-on-error: true
+        cat 'Tome koQ Game List.md'
+        slmd 'Tome koQ Game List.md' -i -o
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
       with:
