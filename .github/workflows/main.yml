@@ -25,6 +25,6 @@ jobs:
           echo 'Nothing to sort, the list is already sorted case-insensitive.'
         continue-on-error: true
       - name: Auto commit
-        uses: stefanzweifel/git-auto-commit-action@v3.0.0
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Sort Tome koQ Game List
