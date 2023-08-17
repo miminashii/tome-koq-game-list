@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install slmd
+          # slmd returns 1 whenever changes are made to the md file by sorting.
           slmd 'Tome koQ Game List.md' -i -o
           echo 'Nothing to sort, the list is already sorted case-insensitive.'
         continue-on-error: true
