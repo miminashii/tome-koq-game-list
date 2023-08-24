@@ -114,7 +114,7 @@
 * [声で導け！脱出のアリア](http://www.moguragames.com/entry/escape-aria/) played on 2022/02/02
 * [寿司打](https://sushida.net/) played on 2023/06/03, 2023/06/05
 * [桃太郎電鉄 ～昭和 平成 令和も定番！～](https://www.konami.com/games/momotetsu/teiban/) played on 2022/01/25
+* [漢字でGO!](https://plicy.net/GamePlay/155561) played on 2023/08/24, 2023/08/25
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [漢字でGO!](https://plicy.net/GamePlay/155561) played on 2023/08/24, 2023/08/25
