@@ -8,7 +8,7 @@
 * [Animal Fight Club](https://store.steampowered.com/app/1022780/Animal_Fight_Club/) played on 2021/10/03
 * [Apex Legends](https://www.ea.com/ja-jp/games/apex-legends) played on 2021/04/27, 2021/04/28, 2021/05/03, 2021/07/15, 2021/07/29, 2021/07/30, 2021/08/06, 2021/08/08, 2021/08/09, 2021/08/10, 2021/08/16, 2021/09/05-2021/09/23, 2021/10/01, 2021/10/02, 2021/10/19, 2021/10/20, 2021/11/03, 2021/11/06, 2021/11/07, 2021/11/09
 * [ARK: Survival Evolved](https://www.spike-chunsoft.co.jp/ark/) played on 2022/06/15
-* [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/27
+* [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/29
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
 * [BattleBit Remastered](https://joinbattlebit.com/) played on 2023/07/17
 * [Battlefield 2042](https://www.ea.com/ja-jp/games/battlefield/battlefield-2042) played on 2021/11/14, 2021/11/15
