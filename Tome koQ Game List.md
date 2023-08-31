@@ -15,7 +15,7 @@
 * [Bayonetta](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
 * [BBQ Simulator: The Squad](https://store.steampowered.com/app/1755350/BBQ_Simulator_The_Squad/) played on 2022/06/15
 * [BIOHAZARD RE:4](https://www.residentevil.com/re4/en-asia/) played on 2023/04/08-2023/04/11
-* [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/05/30, 2021/06/01, 2021/06/03
+* [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/06/01, 2021/06/03
 * [Bloodborne](https://www.playstation.com/ja-jp/games/bloodborne/) played on 2022/02/06, 2022/02/11-2022/02/13, 2022/02/19, 2022/02/20
 * [Bum Simulator](https://store.steampowered.com/app/855740/Bum_Simulator/) played on 2021/08/29, 2021/09/01
 * [CODENAMES ONLINE](https://codenames.game/) played on 2022/03/27
