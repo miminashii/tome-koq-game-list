@@ -26,7 +26,7 @@ def main():
     try:
         bodies = _create_event_bodies_from_md()
 
-        # 一度に2500イベント取れる。ページネーションもできる。
+        # NOTE 一度に2500イベント取れる。ページネーションもできる。
         # https://developers.google.com/calendar/api/v3/reference/events/list?hl=ja
         current_events = _get_current_events()
 
@@ -94,15 +94,22 @@ def _create_event_bodies_from_md():
                 end_date = dts[1]
             else:
                 start_date = end_date = played_on
-        elif len(played_ons) > 1:
-            start_date = played_ons[0]
-            if "-" in start_date:
-                dts = start_date.split("-")
-                start_date = dts[0]
-            end_date = played_ons[-1]
-            if "-" in end_date:
-                dts = end_date.split("-")
-                end_date = dts[1]
+        # TODO 以下のような場合に対応できるようにする。
+        # 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/18, 2023/05/23
+        # この場合、以下のような3つの event_body が作られてほしい。
+        # ・(event1) start: 2023/05/11, end: 2023/05/14 ← ハイフン繋ぎパターン
+        # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 2つの連続した日付パターン（3つ以上の連続した日付はないはず... その場合ハイフン繋ぎパターンになってるはず）
+        # ・(event3) start: 2023/05/23, end: 2023/05/23 ← 1つの独立した日付パターン
+        #
+        # elif len(played_ons) > 1:
+        #     start_date = played_ons[0]
+        #     if "-" in start_date:
+        #         dts = start_date.split("-")
+        #         start_date = dts[0]
+        #     end_date = played_ons[-1]
+        #     if "-" in end_date:
+        #         dts = end_date.split("-")
+        #         end_date = dts[1]
         else:
             print(f"不正な played_on: {played_ons}")
             sys.exit(1)
@@ -118,11 +125,11 @@ def _create_event_bodies_from_md():
             "summary": game_name,
             "description": url,
             "start": {
-                "date": start_date,
+                "date": start_date.replace("-", "/"),
                 "timeZone": CALENDAR_TIMEZONE,
             },
             "end": {
-                "date": end_date,
+                "date": end_date.replace("-", "/"),
                 "timeZone": CALENDAR_TIMEZONE,
             },
         }
