@@ -21,30 +21,19 @@ CALENDAR_TIMEZONE = "Japan"
 CALENDAR_ID = os.environ["CALENDAR_ID"]
 
 
-@dataclass
-class Game:
-    game_name: str
-    url: str
-    played_ons: List[str]
-
-
 def main():
     # https://developers.google.com/calendar/quickstart/python
-
     try:
-        bodies = _create_event_bodies_from_md()  # body: event id (str), game_name (str), played on (List[str])
+        bodies = _create_event_bodies_from_md()
 
-        current_events = None
-        if os.path.exists("events.json"):
-            current_events = _read_events_from_json()
+        # 一度に2500イベント取れる。ページネーションもできる。
+        # https://developers.google.com/calendar/api/v3/reference/events/list?hl=ja
+        current_events = _get_current_events()
 
         service = build("calendar", "v3", credentials=_gen_googleapi_creds())
-        if current_events is None:
-            _create_events(service, bodies)
-        else:
-            bodies_create, bodies_update = _organize(bodies, current_events)
-            _create_events(service, bodies_create)
-            _update_events(service, bodies_update)
+        bodies_create, bodies_update = _organize(bodies, current_events)
+        _create_events(service, bodies_create)
+        _update_events(service, bodies_update)
     except HttpError as error:
         print(f"An error occurred: {error}")
 
@@ -142,7 +131,7 @@ def _create_event_bodies_from_md():
     return event_bodies
 
 
-def _read_events_from_json():
+def _get_current_events():
     pass
 
 
