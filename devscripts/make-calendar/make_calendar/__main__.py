@@ -1,17 +1,31 @@
 from __future__ import print_function
+from dataclasses import dataclass
 
 import os.path
+import re
+import sys
+from typing import List
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+import markdown_to_json
+
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
+CALENDAR_TIMEZONE = "Japan"
 CALENDAR_ID = os.environ["CALENDAR_ID"]
+
+
+@dataclass
+class Game:
+    game_name: str
+    url: str
+    played_ons: List[str]
 
 
 def main():
@@ -61,22 +75,86 @@ def _gen_googleapi_creds():
 
 
 def _create_event_bodies_from_md():
-    pass
+    with open("../../Tome koQ Game List.md") as f:
+        s = f.read()
+
+    dictified = markdown_to_json.dictify(s)
+    game_lines = list(dictified.items())[0][1][1]
+
+    game_name_pattern = r"\[.*?\]"
+    url_pattern = "https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)"
+    played_on_pattern = " played on .*"
+
+    event_bodies: List[dict] = []
+    for line in game_lines:
+        m = re.search(game_name_pattern, line)
+        game_name = m.group().lstrip("[").rstrip("]")
+
+        m = re.search(url_pattern, line)
+        url = m.group().rstrip(")")
+
+        m = re.search(played_on_pattern, line)
+        raw_played_on = m.group()
+        played_ons = raw_played_on.lstrip(" played on ").split(", ")
+
+        if len(played_ons) == 1:
+            played_on = played_ons[0]
+            if "-" in played_on:
+                dts = played_on.split("-")
+                start_date = dts[0]
+                end_date = dts[1]
+            else:
+                start_date = end_date = played_on
+        elif len(played_ons) > 1:
+            start_date = played_ons[0]
+            if "-" in start_date:
+                dts = start_date.split("-")
+                start_date = dts[0]
+            end_date = played_ons[-1]
+            if "-" in end_date:
+                dts = end_date.split("-")
+                end_date = dts[1]
+        else:
+            print(f"不正な played_on: {played_ons}")
+            sys.exit(1)
+
+        print("==========================================")
+        print(f"game_name: {game_name}")
+        print(f"url: {url}")
+        print(f"start_date: {start_date}")
+        print(f"end_date: {end_date}")
+        print("==========================================")
+
+        event_body = {
+            "summary": game_name,
+            "description": url,
+            "start": {
+                "date": start_date,
+                "timeZone": CALENDAR_TIMEZONE,
+            },
+            "end": {
+                "date": end_date,
+                "timeZone": CALENDAR_TIMEZONE,
+            },
+        }
+        event_bodies.append(event_body)
+
+    return event_bodies
 
 
 def _read_events_from_json():
     pass
 
 
-def _organize():
+def _organize(bodies, current_events):
     pass
 
 
-def _create_events():
+def _create_events(service, bodies):
     pass
 
 
-def _update_events():
+def _update_events(service, bodies):
     pass
 
 
