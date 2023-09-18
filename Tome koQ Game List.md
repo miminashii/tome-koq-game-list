@@ -35,7 +35,7 @@
 * [ELDEN RING](https://www.eldenring.jp/index.html) played on 2022/02/24-2022/03/08, 2022/03/20, 2022/03/21, 2022/04/09, 2022/04/10, 2022/04/23, 2022/04/30, 2022/05/01
 * [ENDER LILIES: Quietus of the Knights](https://en.enderlilies.com/) played on 2021/08/06, 2021/08/09
 * [Eronoctosis: Put Yourself Together](https://store.steampowered.com/app/1683860/Eronoctosis_Put_Yourself_Together/) played on 2021/10/24
-* [Escape from Tarkov](https://www.escapefromtarkov.com/) played on 2023/08/07, 2023/08/08, 2023/08/10, 2023/08/11, 2023/08/13, 2023/08/15, 2023/08/16, 2023/08/18, 2023/08/19, 2023/09/06, 2023/09/07, 2023/09/10, 2023/09/11, 2023/09/17
+* [Escape from Tarkov](https://www.escapefromtarkov.com/) played on 2023/08/07, 2023/08/08, 2023/08/10, 2023/08/11, 2023/08/13, 2023/08/15, 2023/08/16, 2023/08/18, 2023/08/19, 2023/09/06, 2023/09/07, 2023/09/10, 2023/09/11, 2023/09/17-2023/09/19
 * [Exoprimal](https://www.exoprimal.com/en-asia/) played on 2023/07/15
 * [FINAL FANTASY X](https://www.jp.square-enix.com/ffx_x-2HD/) played on 2022/05/26, 2022/05/28, 2022/05/29, 2022/06/04-2022/06/06, 2022/06/10, 2022/06/18, 2022/06/19, 2022/06/26
 * [fingger](https://fingger.com/) played on 2021/10/11, 2021/10/17, 2021/10/22
