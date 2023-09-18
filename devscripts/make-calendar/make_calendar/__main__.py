@@ -87,13 +87,22 @@ def _create_event_bodies_from_md():
         raw_played_on = m.group()
         played_ons = raw_played_on.lstrip(" played on ").split(", ")
 
+        # NOTE 以下のような played_ons の場合、
+        # 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/18, 2023/05/23
+        # 以下のような3つの event_body が作られてほしい。
+        # ・(event1) start: 2023/05/11, end: 2023/05/14 ← 「2023/05/11-2023/05/14」、ハイフン繋ぎパターン
+        # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 「2023/05/16, 2023/05/17」、2つの連続した日付パターン（3つ以上の連続した日付はないはず... その場合ハイフン繋ぎパターンになってるはず）
+        # ・(event3) start: 2023/05/23, end: 2023/05/23 ← 「2023/05/23」、1つの独立した日付パターン
         if len(played_ons) == 1:
             played_on = played_ons[0]
+
+            # ハイフン繋ぎパターン
             if "-" in played_on:
                 dts = played_on.split("-")
                 start_date = dts[0]
                 end_date = dts[1]
             else:
+                # 1つの独立した日付パターン
                 start_date = end_date = played_on
 
             event_body = {
@@ -110,12 +119,6 @@ def _create_event_bodies_from_md():
             }
             event_bodies.append(event_body)
         elif len(played_ons) > 1:
-            # 以下のような played_ons の場合、
-            # 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/18, 2023/05/23
-            # 以下のような3つの event_body が作られてほしい。
-            # ・(event1) start: 2023/05/11, end: 2023/05/14 ← 「2023/05/11-2023/05/14」、ハイフン繋ぎパターン
-            # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 「2023/05/16, 2023/05/17」、2つの連続した日付パターン（3つ以上の連続した日付はないはず... その場合ハイフン繋ぎパターンになってるはず）
-            # ・(event3) start: 2023/05/23, end: 2023/05/23 ← 「2023/05/23」、1つの独立した日付パターン
             idx = 0
             while idx <= len(played_ons) - 1:
                 played_on = played_ons[idx]
@@ -235,7 +238,7 @@ def _create_event_bodies_from_md():
                         event_bodies.append(event_body)
                         idx += 1
         else:
-            print(f"不正な played_on: {played_ons}")
+            print(f"不正な played_ons: {played_ons}")
             sys.exit(1)
 
     return event_bodies
