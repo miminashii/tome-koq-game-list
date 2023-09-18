@@ -1,18 +1,15 @@
-from __future__ import print_function
-from dataclasses import dataclass
-
 import os.path
 import re
 import sys
+from datetime import datetime, timedelta
 from typing import List
 
+import markdown_to_json
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-import markdown_to_json
-
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
@@ -25,6 +22,10 @@ def main():
     # https://developers.google.com/calendar/quickstart/python
     try:
         bodies = _create_event_bodies_from_md()
+        # print(len(bodies))
+        # with open("result.json", "w") as fp:
+        #     json.dump(bodies, fp, ensure_ascii=False)
+        # sys.exit()
 
         # NOTE 一度に2500イベント取れる。ページネーションもできる。
         # https://developers.google.com/calendar/api/v3/reference/events/list?hl=ja
@@ -94,46 +95,148 @@ def _create_event_bodies_from_md():
                 end_date = dts[1]
             else:
                 start_date = end_date = played_on
-        # TODO 以下のような場合に対応できるようにする。
-        # 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/18, 2023/05/23
-        # この場合、以下のような3つの event_body が作られてほしい。
-        # ・(event1) start: 2023/05/11, end: 2023/05/14 ← ハイフン繋ぎパターン
-        # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 2つの連続した日付パターン（3つ以上の連続した日付はないはず... その場合ハイフン繋ぎパターンになってるはず）
-        # ・(event3) start: 2023/05/23, end: 2023/05/23 ← 1つの独立した日付パターン
-        #
-        # elif len(played_ons) > 1:
-        #     start_date = played_ons[0]
-        #     if "-" in start_date:
-        #         dts = start_date.split("-")
-        #         start_date = dts[0]
-        #     end_date = played_ons[-1]
-        #     if "-" in end_date:
-        #         dts = end_date.split("-")
-        #         end_date = dts[1]
+
+            event_body = {
+                "summary": game_name,
+                "description": f"ゲームのURL: {url}",
+                "start": {
+                    "date": start_date.replace("/", "-"),
+                    "timeZone": CALENDAR_TIMEZONE,
+                },
+                "end": {
+                    "date": end_date.replace("/", "-"),
+                    "timeZone": CALENDAR_TIMEZONE,
+                },
+            }
+            event_bodies.append(event_body)
+        elif len(played_ons) > 1:
+            # 以下のような played_ons の場合、
+            # 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/18, 2023/05/23
+            # 以下のような3つの event_body が作られてほしい。
+            # ・(event1) start: 2023/05/11, end: 2023/05/14 ← 「2023/05/11-2023/05/14」、ハイフン繋ぎパターン
+            # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 「2023/05/16, 2023/05/17」、2つの連続した日付パターン（3つ以上の連続した日付はないはず... その場合ハイフン繋ぎパターンになってるはず）
+            # ・(event3) start: 2023/05/23, end: 2023/05/23 ← 「2023/05/23」、1つの独立した日付パターン
+            idx = 0
+            while idx <= len(played_ons) - 1:
+                played_on = played_ons[idx]
+
+                # ハイフン繋ぎパターン
+                if "-" in played_on:
+                    dts = played_on.split("-")
+                    start_date = dts[0]
+                    end_date = dts[1]
+                    event_body = {
+                        "summary": game_name,
+                        "description": f"ゲームのURL: {url}",
+                        "start": {
+                            "date": start_date.replace("/", "-"),
+                            "timeZone": CALENDAR_TIMEZONE,
+                        },
+                        "end": {
+                            "date": end_date.replace("/", "-"),
+                            "timeZone": CALENDAR_TIMEZONE,
+                        },
+                    }
+                    event_bodies.append(event_body)
+                    idx += 1
+                else:
+                    try:
+                        played_on_next = played_ons[idx + 1]
+                    except IndexError:
+                        played_on_next = None
+
+                    first = datetime.strptime(played_on, "%Y/%m/%d")
+
+                    if played_on_next:
+                        if "-" in played_on_next:
+                            # ハイフン繋ぎパターン
+                            event_body = {
+                                "summary": game_name,
+                                "description": f"ゲームのURL: {url}",
+                                "start": {
+                                    "date": played_on.replace("/", "-"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                                "end": {
+                                    "date": played_on.replace("/", "-"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                            }
+                            event_bodies.append(event_body)
+
+                            # ハイフン繋ぎパターン
+                            dts = played_on_next.split("-")
+                            start_date = dts[0]
+                            end_date = dts[1]
+                            event_body = {
+                                "summary": game_name,
+                                "description": f"ゲームのURL: {url}",
+                                "start": {
+                                    "date": start_date.replace("/", "-"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                                "end": {
+                                    "date": end_date.replace("/", "-"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                            }
+                            event_bodies.append(event_body)
+                            idx += 2
+                            continue
+
+                        second = datetime.strptime(played_on_next, "%Y/%m/%d")
+
+                        # 2つの連続した日付パターン
+                        if (first + timedelta(days=1)) == second:
+                            event_body = {
+                                "summary": game_name,
+                                "description": f"ゲームのURL: {url}",
+                                "start": {
+                                    "date": first.strftime("%Y-%m-%d"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                                "end": {
+                                    "date": second.strftime("%Y-%m-%d"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                            }
+                            event_bodies.append(event_body)
+                            idx += 2
+                        else:
+                            # 1つの独立した日付パターン
+                            event_body = {
+                                "summary": game_name,
+                                "description": f"ゲームのURL: {url}",
+                                "start": {
+                                    "date": played_on.replace("/", "-"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                                "end": {
+                                    "date": played_on.replace("/", "-"),
+                                    "timeZone": CALENDAR_TIMEZONE,
+                                },
+                            }
+                            event_bodies.append(event_body)
+                            idx += 1
+                    else:
+                        # 1つの独立した日付パターン
+                        event_body = {
+                            "summary": game_name,
+                            "description": f"ゲームのURL: {url}",
+                            "start": {
+                                "date": played_on.replace("/", "-"),
+                                "timeZone": CALENDAR_TIMEZONE,
+                            },
+                            "end": {
+                                "date": played_on.replace("/", "-"),
+                                "timeZone": CALENDAR_TIMEZONE,
+                            },
+                        }
+                        event_bodies.append(event_body)
+                        idx += 1
         else:
             print(f"不正な played_on: {played_ons}")
             sys.exit(1)
-
-        print("==========================================")
-        print(f"game_name: {game_name}")
-        print(f"url: {url}")
-        print(f"start_date: {start_date}")
-        print(f"end_date: {end_date}")
-        print("==========================================")
-
-        event_body = {
-            "summary": game_name,
-            "description": url,
-            "start": {
-                "date": start_date.replace("-", "/"),
-                "timeZone": CALENDAR_TIMEZONE,
-            },
-            "end": {
-                "date": end_date.replace("-", "/"),
-                "timeZone": CALENDAR_TIMEZONE,
-            },
-        }
-        event_bodies.append(event_body)
 
     return event_bodies
 
