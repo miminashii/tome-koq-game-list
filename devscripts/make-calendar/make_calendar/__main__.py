@@ -152,7 +152,7 @@ def _create_event_bodies_from_md():
 
                     if played_on_next:
                         if "-" in played_on_next:
-                            # ハイフン繋ぎパターン
+                            # 1つの独立した日付パターン
                             event_body = {
                                 "summary": game_name,
                                 "description": f"ゲームのURL: {url}",
