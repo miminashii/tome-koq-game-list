@@ -4,7 +4,6 @@ import sys
 from datetime import datetime, timedelta
 from typing import List
 
-import markdown_to_json
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -22,16 +21,13 @@ def main():
     # https://developers.google.com/calendar/quickstart/python
     try:
         bodies = _create_event_bodies_from_md()
-        # print(len(bodies))
-        # with open("result.json", "w") as fp:
-        #     json.dump(bodies, fp, ensure_ascii=False)
-        # sys.exit()
+        print(f"len(bodies): {len(bodies)}")
+
+        service = build("calendar", "v3", credentials=_gen_googleapi_creds())
 
         # NOTE 一度に2500イベント取れる。ページネーションもできる。
         # https://developers.google.com/calendar/api/v3/reference/events/list?hl=ja
-        current_events = _get_current_events()
-
-        service = build("calendar", "v3", credentials=_gen_googleapi_creds())
+        current_events = _get_current_events(service)
         bodies_create, bodies_update = _organize(bodies, current_events)
         _create_events(service, bodies_create)
         _update_events(service, bodies_update)
@@ -66,17 +62,14 @@ def _gen_googleapi_creds():
 
 def _create_event_bodies_from_md():
     with open("../../Tome koQ Game List.md") as f:
-        s = f.read()
-
-    dictified = markdown_to_json.dictify(s)
-    game_lines = list(dictified.items())[0][1][1]
+        lines = [s.lstrip("* ").rstrip("\n") for s in f.readlines()]
 
     game_name_pattern = r"\[.*?\]"
     url_pattern = "https?:\\/\\/(?:www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b(?:[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*)"
     played_on_pattern = " played on .*"
 
     event_bodies: List[dict] = []
-    for line in game_lines:
+    for line in lines[3:]:  # 先頭のタイトル行などは除外
         m = re.search(game_name_pattern, line)
         game_name = m.group().lstrip("[").rstrip("]")
 
@@ -238,14 +231,35 @@ def _create_event_bodies_from_md():
                         event_bodies.append(event_body)
                         idx += 1
         else:
-            print(f"不正な played_ons: {played_ons}")
+            print(f"Invalid played_ons: {played_ons}")
             sys.exit(1)
 
     return event_bodies
 
 
-def _get_current_events():
-    pass
+def _get_current_events(service):
+    MAX_RESULTS = 2500
+    try:
+        now = datetime.datetime.utcnow().isoformat() + "Z"  # 'Z' indicates UTC time
+        print("Getting all the upcoming events.")
+        events_result = (
+            service.events()
+            .list(calendarId=CALENDAR_ID, timeMin=now, maxResults=2500, singleEvents=True, orderBy="startTime")
+            .execute()
+        )
+        events = events_result.get("items", [])
+
+        if not events:
+            print("No upcoming events found.")
+            return
+
+        # Prints the start and name of the next 10 events
+        for event in events:
+            start = event["start"].get("dateTime", event["start"].get("date"))
+            print(start, event["summary"])
+
+    except HttpError as error:
+        print("An error occurred: %s" % error)
 
 
 def _organize(bodies, current_events):

@@ -348,17 +348,6 @@ plugins = ["setuptools"]
 requirements-deprecated-finder = ["pip-api", "pipreqs"]
 
 [[package]]
-name = "markdown-to-json"
-version = "2.1.0"
-description = "Markdown to dict and json deserializer"
-optional = false
-python-versions = ">=3.6.2"
-files = [
-    {file = "markdown_to_json-2.1.0-py3-none-any.whl", hash = "sha256:44a17e3ff42af4f049fa2a6a86efbe30e27dcf8401c7ad1772b97b2d396d88f8"},
-    {file = "markdown_to_json-2.1.0.tar.gz", hash = "sha256:ea02313f7c5e8d05033d7a2b4e7c891246bc8f6391e1681760579687e6b0ba68"},
-]
-
-[[package]]
 name = "mccabe"
 version = "0.7.0"
 description = "McCabe checker, plugin for flake8"
@@ -611,4 +600,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d74a063d1f8b945d7c89eccc16567e6acd5930c82a9d8f7dd49e08b823b53da5"
+content-hash = "31fe20ddee1cae794dc0999891bd16c5d41256d70f9321d6ae47385c0c4bc3ce"

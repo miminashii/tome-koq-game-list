@@ -46,14 +46,14 @@ def main():
 
         # update event
         event_body_2 = {
-            "summary": "test",
+            "summary": "47都道府県名を答える都道府県クイズ",
             "description": "https://www.start-point.net/map_quiz/nihonchizu/",
             "start": {
-                "date": "2023-05-20",
+                "date": "2023-05-21",
                 "timeZone": "Japan",
             },
             "end": {
-                "date": "2023-06-10",
+                "date": "2023-06-11",
                 "timeZone": "Japan",
             },
         }
