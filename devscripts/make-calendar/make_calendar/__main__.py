@@ -8,7 +8,6 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
@@ -18,21 +17,17 @@ CALENDAR_ID = os.environ["CALENDAR_ID"]
 
 
 def main():
-    # https://developers.google.com/calendar/quickstart/python
-    try:
-        bodies = _create_event_bodies_from_md()
-        print(f"len(bodies): {len(bodies)}")
+    # カレンダーのイベントを総入れ替え（delete/insert）する
+    # TODO 必要な分だけinsert/delete/updateするようにする
+    service = build("calendar", "v3", credentials=_gen_googleapi_creds())
 
-        service = build("calendar", "v3", credentials=_gen_googleapi_creds())
+    current_event_ids = _get_current_event_ids(service)
+    print(f"# of current events on Google Calendar (events to delete): {len(current_event_ids)}")
+    bodies = _create_event_bodies_from_md()
+    print(f"# of games listed (events to insert): {len(bodies)}")
 
-        # NOTE 一度に2500イベント取れる。ページネーションもできる。
-        # https://developers.google.com/calendar/api/v3/reference/events/list?hl=ja
-        current_events = _get_current_events(service)
-        bodies_create, bodies_update = _organize(bodies, current_events)
-        _create_events(service, bodies_create)
-        _update_events(service, bodies_update)
-    except HttpError as error:
-        print(f"An error occurred: {error}")
+    _delete_events(service, current_event_ids)
+    _insert_events(service, bodies)
 
 
 def _gen_googleapi_creds():
@@ -61,6 +56,7 @@ def _gen_googleapi_creds():
 
 
 def _create_event_bodies_from_md():
+    # TODO もっと読みやすくする
     with open("../../Tome koQ Game List.md") as f:
         lines = [s.lstrip("* ").rstrip("\n") for s in f.readlines()]
 
@@ -84,7 +80,7 @@ def _create_event_bodies_from_md():
         # 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/23
         # 以下のような3つの event が作られてほしい。
         # ・(event1) start: 2023/05/11, end: 2023/05/14 ← 「2023/05/11-2023/05/14」、ハイフン繋ぎパターン
-        # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 「2023/05/16, 2023/05/17」、2つの連続した日付パターン（3つ以上の連続した日付はないはず... その場合ハイフン繋ぎパターンになってるはず）
+        # ・(event2) start: 2023/05/16, end: 2023/05/17 ← 「2023/05/16, 2023/05/17」、2つの連続した日付パターン（3つ以上の連続した日付はない想定。その場合ハイフン繋ぎパターンになる。）
         # ・(event3) start: 2023/05/23, end: 2023/05/23 ← 「2023/05/23」、1つの独立した日付パターン
         if len(played_ons) == 1:
             played_on = played_ons[0]
@@ -237,41 +233,37 @@ def _create_event_bodies_from_md():
     return event_bodies
 
 
-def _get_current_events(service):
-    MAX_RESULTS = 2500
-    try:
-        now = datetime.datetime.utcnow().isoformat() + "Z"  # 'Z' indicates UTC time
-        print("Getting all the upcoming events.")
-        events_result = (
+def _get_current_event_ids(service):
+    items = []
+    page_token = None
+    while True:
+        events = service.events().list(calendarId=CALENDAR_ID, maxResults=2500, pageToken=page_token).execute()
+        for item in events["items"]:
+            items.append(item["id"])
+        page_token = events.get("nextPageToken")
+        if not page_token:
+            break
+
+    return items
+
+
+def _delete_events(service, event_ids):
+    for idx, event_id in enumerate(event_ids, 1):
+        service.events().delete(calendarId=CALENDAR_ID, eventId=event_id).execute()
+        print(f"{idx} of {len(event_ids)} event deleted! (id: {event_id})")
+
+
+def _insert_events(service, bodies):
+    for idx, body in enumerate(bodies, 1):
+        event = (
             service.events()
-            .list(calendarId=CALENDAR_ID, timeMin=now, maxResults=2500, singleEvents=True, orderBy="startTime")
+            .insert(
+                calendarId=CALENDAR_ID,
+                body=body,
+            )
             .execute()
         )
-        events = events_result.get("items", [])
-
-        if not events:
-            print("No upcoming events found.")
-            return
-
-        # Prints the start and name of the next 10 events
-        for event in events:
-            start = event["start"].get("dateTime", event["start"].get("date"))
-            print(start, event["summary"])
-
-    except HttpError as error:
-        print("An error occurred: %s" % error)
-
-
-def _organize(bodies, current_events):
-    pass
-
-
-def _create_events(service, bodies):
-    pass
-
-
-def _update_events(service, bodies):
-    pass
+        print(f"{idx} of {len(bodies)} event inserted! (id: {event.get('id')})")
 
 
 if __name__ == "__main__":
