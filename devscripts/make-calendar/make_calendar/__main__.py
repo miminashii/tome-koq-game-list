@@ -1,3 +1,4 @@
+# import json
 import os.path
 import re
 import sys
@@ -21,13 +22,19 @@ def main():
     # TODO 必要な分だけinsert/delete/updateするようにする
     service = build("calendar", "v3", credentials=_gen_googleapi_creds())
 
+    print("=== Events deletion and insertion starts. ===")
     current_event_ids = _get_current_event_ids(service)
-    print(f"# of current events on Google Calendar (events to delete): {len(current_event_ids)}")
+    print(f"# of events to delete (current events on Google Calendar): {len(current_event_ids)}")
     bodies = _create_event_bodies_from_md()
-    print(f"# of games listed (events to insert): {len(bodies)}")
+    print(f"# of events to insert: {len(bodies)}")
+
+    # with open('result.json', 'w') as fp:
+    #     json.dump(bodies, fp, ensure_ascii=False)
+    # sys.exit()
 
     _delete_events(service, current_event_ids)
     _insert_events(service, bodies)
+    print("=== Events deletion and insertion finished. ===")
 
 
 def _gen_googleapi_creds():
