@@ -6,7 +6,7 @@
 * [Among Us](http://www.h2int.com/games/among-us/) played on 2021/08/11
 * [Ancestors: The Humankind Odyssey](https://store.steampowered.com/app/536270/Ancestors_The_Humankind_Odyssey/) played on 2021/08/19, 2021/08/20, 2021/08/24
 * [Animal Fight Club](https://store.steampowered.com/app/1022780/Animal_Fight_Club/) played on 2021/10/03
-* [Apex Legends](https://www.ea.com/ja-jp/games/apex-legends) played on 2021/04/27, 2021/04/28, 2021/05/03, 2021/07/15, 2021/07/29, 2021/07/30, 2021/08/06, 2021/08/08-2021/08/10, 2021/08/16, 2021/09/05-2021/09/23, 2021/10/01, 2021/10/02, 2021/10/19, 2021/10/20, 2021/11/03, 2021/11/06, 2021/11/07, 2021/11/09
+* [Apex Legends](https://www.ea.com/ja-jp/games/apex-legends) played on 2021/04/27, 2021/04/28, 2021/05/03, 2021/07/15, 2021/07/29, 2021/07/30, 2021/08/06, 2021/08/08-2021/08/10, 2021/08/16, 2021/09/05-2021/09/23, 2021/10/01, 2021/10/02, 2021/10/19, 2021/10/20, 2021/11/03, 2021/11/06, 2021/11/07, 2021/11/09, 2023/10/01
 * [ARK: Survival Evolved](https://www.spike-chunsoft.co.jp/ark/) played on 2022/06/15
 * [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/29
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
@@ -36,7 +36,7 @@
 * [ELDEN RING](https://www.eldenring.jp/index.html) played on 2022/02/24-2022/03/08, 2022/03/20, 2022/03/21, 2022/04/09, 2022/04/10, 2022/04/23, 2022/04/30, 2022/05/01
 * [ENDER LILIES: Quietus of the Knights](https://en.enderlilies.com/) played on 2021/08/06, 2021/08/09
 * [Eronoctosis: Put Yourself Together](https://store.steampowered.com/app/1683860/Eronoctosis_Put_Yourself_Together/) played on 2021/10/24
-* [Escape from Tarkov](https://www.escapefromtarkov.com/) played on 2023/08/07, 2023/08/08, 2023/08/10, 2023/08/11, 2023/08/13, 2023/08/15, 2023/08/16, 2023/08/18, 2023/08/19, 2023/09/06, 2023/09/07, 2023/09/10, 2023/09/11, 2023/09/17-2023/09/19, 2023/09/22, 2023/09/24-2023/09/26
+* [Escape from Tarkov](https://www.escapefromtarkov.com/) played on 2023/08/07, 2023/08/08, 2023/08/10, 2023/08/11, 2023/08/13, 2023/08/15, 2023/08/16, 2023/08/18, 2023/08/19, 2023/09/06, 2023/09/07, 2023/09/10, 2023/09/11, 2023/09/17-2023/09/19, 2023/09/22, 2023/09/24-2023/09/26, 2023/10/01
 * [Exoprimal](https://www.exoprimal.com/en-asia/) played on 2023/07/15
 * [FINAL FANTASY X](https://www.jp.square-enix.com/ffx_x-2HD/) played on 2022/05/26, 2022/05/28, 2022/05/29, 2022/06/04-2022/06/06, 2022/06/10, 2022/06/18, 2022/06/19, 2022/06/26
 * [fingger](https://fingger.com/) played on 2021/10/11, 2021/10/17, 2021/10/22
@@ -94,7 +94,7 @@
 * [The Outlast Trials](https://store.epicgames.com/en-US/p/the-outlast-trials) played on 2023/05/19, 2023/05/20
 * [Thief Simulator](https://store.steampowered.com/app/704850/Thief_Simulator/) played on 2021/12/21
 * [Trombone Champ](https://store.steampowered.com/app/1059990/Trombone_Champ/) played on 2022/09/27
-* [VALORANT](https://playvalorant.com/ja-jp/) played on 2023/05/26, 2023/05/27, 2023/05/31, 2023/06/01
+* [VALORANT](https://playvalorant.com/ja-jp/) played on 2023/05/26, 2023/05/27, 2023/05/31, 2023/06/01, 2023/10/01
 * [Viking Rise](https://vr.igg.com/) played on 2023/05/06, 2023/05/07, 2023/05/19
 * [VR Kanojo](http://old.illusion.jp/preview/vrkanojo/vrkanojo.php#conthome) played on 2021/11/29, 2021/12/07
 * [Wild Hearts](https://www.ea.com/ja-jp/games/wild-hearts/wild-hearts) played on 2023/02/17
