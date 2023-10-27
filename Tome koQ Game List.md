@@ -42,6 +42,7 @@
 * [FINAL FANTASY X](https://www.jp.square-enix.com/ffx_x-2HD/) played on 2022/05/26, 2022/05/28, 2022/05/29, 2022/06/04-2022/06/06, 2022/06/10, 2022/06/18, 2022/06/19, 2022/06/26
 * [fingger](https://fingger.com/) played on 2021/10/11, 2021/10/17, 2021/10/22
 * [Fit Boxing 2](https://fitboxing.net/2/) played on 2021/11/01
+* [FPS Chess](https://store.steampowered.com/app/2021910/FPS_Chess/) played on 2023/10/27
 * [GeoGuessr](https://www.geoguessr.com/ja) played on 2021/11/28
 * [Ghost of Tsushima](https://www.suckerpunch.com/category/games/ghostoftsushima/) played on 2022/07/10, 2022/07/16, 2022/07/17, 2022/07/23, 2022/07/24, 2022/07/31, 2022/08/06
 * [God Field](https://godfield.net/) played on 2021/11/25
@@ -123,4 +124,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [FPS Chess](https://store.steampowered.com/app/2021910/FPS_Chess/) played on 2023/10/27
