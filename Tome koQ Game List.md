@@ -80,6 +80,7 @@
 * [Remnant II](https://store.steampowered.com/app/1282100/Remnant_II/) played on 2023/07/28-2023/07/30
 * [Resident Evil 7: Biohazard](http://residentevil7.com/) played on 2021/06/26
 * [Ring Fit Adventure](https://www.nintendo.co.jp/ring/) played on 2021/06/28, 2021/08/25, 2022/06/06, 2022/09/29
+* [Risk of Rain Returns](https://store.steampowered.com/app/1337520/Risk_of_Rain_Returns/) played on 2023/11/12
 * [Ruined King](https://www.ruinedking.com/ja-jp/) played on 2021/11/17
 * [SCP: Secret Files](https://store.steampowered.com/app/1718130/SCP/) played on 2022/09/20, 2022/09/26, 2022/09/27
 * [Sekiro: Shadows Die Twice](https://www.sekiro.jp/) played on 2021/06/06-2021/06/08, 2021/06/14-2021/06/16, 2022/02/18
@@ -124,4 +125,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Risk of Rain Returns](https://store.steampowered.com/app/1337520/Risk_of_Rain_Returns/) played on 2023/11/12
