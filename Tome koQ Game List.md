@@ -11,6 +11,7 @@
 * [ARK: Survival Evolved](https://www.spike-chunsoft.co.jp/ark/) played on 2022/06/15
 * [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/29
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
+* [Backpack Battles](https://store.steampowered.com/app/2427700/Backpack_Battles/?l=japanese) played on 2023/11/19
 * [BattleBit Remastered](https://joinbattlebit.com/) played on 2023/07/17
 * [Battlefield 2042](https://www.ea.com/ja-jp/games/battlefield/battlefield-2042) played on 2021/11/14, 2021/11/15
 * [Bayonetta](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
@@ -127,4 +128,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Backpack Battles](https://store.steampowered.com/app/2427700/Backpack_Battles/?l=japanese) played on 2023/11/19
