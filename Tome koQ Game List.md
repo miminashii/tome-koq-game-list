@@ -20,6 +20,7 @@
 * [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/06/01, 2021/06/03
 * [Bloodborne](https://www.playstation.com/ja-jp/games/bloodborne/) played on 2022/02/06, 2022/02/11-2022/02/13, 2022/02/19, 2022/02/20
 * [Bum Simulator](https://store.steampowered.com/app/855740/Bum_Simulator/) played on 2021/08/29, 2021/09/01
+* [Call of Duty: Modern Warfare III](https://www.callofduty.com/ja/modernwarfare3) played on 2023/11/19
 * [CODENAMES ONLINE](https://codenames.game/) played on 2022/03/27
 * [Counter-Strike 2](https://www.counter-strike.net/cs2) played on 2023/09/29, 2023/09/30
 * [Creed: Rise to Glory](https://store.steampowered.com/app/804490/Creed_Rise_to_Glory/) played on 2022/01/18, 2022/02/03, 2022/02/12
@@ -128,4 +129,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Call of Duty: Modern Warfare III](https://www.callofduty.com/ja/modernwarfare3) played on 2023/11/19
