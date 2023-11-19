@@ -77,6 +77,7 @@
 * [Pokémon UNITE](https://www.pokemonunite.jp/ja/) played on 2021/06/24, 2021/07/21, 2021/07/22
 * [Pummel Party](https://store.steampowered.com/app/880940/Pummel_Party/) played on 2021/11/16
 * [Quest Rooms](https://store.steampowered.com/app/1234550/Quest_Rooms/) played on 2021/11/25
+* [Refind Self: 性格診断ゲーム](https://playism.com/game/refindself/) played on 2023/11/19
 * [Remnant II](https://store.steampowered.com/app/1282100/Remnant_II/) played on 2023/07/28-2023/07/30
 * [Resident Evil 7: Biohazard](http://residentevil7.com/) played on 2021/06/26
 * [Ring Fit Adventure](https://www.nintendo.co.jp/ring/) played on 2021/06/28, 2021/08/25, 2022/06/06, 2022/09/29
@@ -126,4 +127,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Refind Self: 性格診断ゲーム](https://playism.com/game/refindself/) played on 2023/11/19
