@@ -50,6 +50,7 @@
 * [God Field](https://godfield.net/) played on 2021/11/25
 * [God of War](https://store.steampowered.com/app/1593500/God_of_War/) played on 2022/08/07
 * [Grand Theft Auto V](https://www.rockstargames.com/jp/gta-v) played on 2021/06/19, 2021/06/21, 2021/06/23, 2021/06/28, 2021/07/05, 2021/07/09
+* [Hades](https://store.steampowered.com/app/1145360/Hades/) played on 2023/11/30
 * [Hand Simulator: Survival](https://store.steampowered.com/app/924140/Hand_Simulator_Survival/) played on 2022/05/20
 * [HITMAN 3](https://store.steampowered.com/app/1659040/HITMAN_3/) played on 2021/11/11
 * [Honkai: Star Rail](https://hsr.hoyoverse.com/en-us/home?utm_source=hsrofficialweb&utm_medium=fab&utm_campaign=button) played on 2023/04/26, 2023/04/27
@@ -129,4 +130,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Hades](https://store.steampowered.com/app/1145360/Hades/) played on 2023/11/30
