@@ -118,7 +118,7 @@
 * [スイカゲーム](https://store-jp.nintendo.com/list/software/70010000043363.html) played on 2023/10/03, 2023/10/04
 * [スーパーボンバーマン R オンライン](https://www.konami.com/games/bomberman/online/jp/ja/) played on 2021/06/11, 2021/06/25
 * [トロッコ問題 of アルマゲドン](https://plicy.net/GamePlay/157948) played on 2021/07/04
-* [ドラクエモンスターズ3 魔族の王子とエルフの旅](https://www.dragonquest.jp/monsters3/) played on 2023/12/01-2023/12/08
+* [ドラクエモンスターズ3 魔族の王子とエルフの旅](https://www.dragonquest.jp/monsters3/) played on 2023/12/01-2023/12/08, 2023/12/12
 * [ハッピークズトピア](https://happykuzutopia.cyberstep.com/) played on 2021/10/14
 * [メイドインアビス 闇を目指した連星](https://www.spike-chunsoft.co.jp/miabyss/top.html) played on 2022/09/06, 2022/09/08
 * [不思議のダンジョン 風来のシレン5plus](https://www.spike-chunsoft.co.jp/shiren5plus/) played on 2022/05/14
