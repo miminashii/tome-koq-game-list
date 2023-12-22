@@ -13,7 +13,7 @@
 * [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/29
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
 * [Backpack Battles](https://store.steampowered.com/app/2427700/Backpack_Battles/?l=japanese) played on 2023/11/19, 2023/11/30
-* [Baldur's Gate 3](https://baldursgate3.game/) played on 2023/12/21
+* [Baldur's Gate 3](https://baldursgate3.game/) played on 2023/12/21, 2023/12/22
 * [BattleBit Remastered](https://joinbattlebit.com/) played on 2023/07/17
 * [Battlefield 2042](https://www.ea.com/ja-jp/games/battlefield/battlefield-2042) played on 2021/11/14, 2021/11/15
 * [Bayonetta](https://www.platinumgames.co.jp/games/bayonetta) played on 2022/09/25, 2022/10/01
