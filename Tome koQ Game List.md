@@ -1,6 +1,8 @@
 <!-- markdownlint-disable MD013 -->
 # 🐒💥Tome koQ Game List🐒💥
 
+[📅Google Calendar 版はこちら](https://calendar.google.com/calendar/embed?src=88c176c24d3cbcbb4fa87e98d2d2da160e57a62017e1c1ea3738642eee5fcaf2%40group.calendar.google.com&ctz=Asia%2FTokyo)
+
 * [47都道府県名を答える都道府県クイズ](https://www.start-point.net/map_quiz/nihonchizu/) played on 2023/05/20
 * [Against the Storm](https://store.steampowered.com/app/1336490/Against_the_Storm/) played on 2023/12/12
 * [Aion](https://www.aiononline.com/en-us) played on 2021/07/14

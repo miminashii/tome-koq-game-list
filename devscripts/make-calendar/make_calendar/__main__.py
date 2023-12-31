@@ -64,7 +64,7 @@ def _gen_googleapi_creds():
 
 def _create_event_bodies_from_md():
     # TODO もっと読みやすくする
-    with open("../../Tome koQ Game List.md") as f:
+    with open("../../Tome koQ Game List.md", encoding='utf8') as f:
         lines = [s.lstrip("* ").rstrip("\n") for s in f.readlines()]
 
     game_name_pattern = r"\[.*?\]"
@@ -72,7 +72,7 @@ def _create_event_bodies_from_md():
     played_on_pattern = " played on .*"
 
     event_bodies: List[dict] = []
-    for line in lines[3:]:  # 先頭のタイトル行などは除外
+    for line in lines[5:]:  # 先頭のタイトル行などは除外
         m = re.search(game_name_pattern, line)
         game_name = m.group().lstrip("[").rstrip("]")
 
