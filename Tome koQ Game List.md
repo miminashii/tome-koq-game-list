@@ -77,6 +77,7 @@
 * [Overcooked! 2](https://store.steampowered.com/app/728880/Overcooked_2/) played on 2021/05/27
 * [Overwatch 2](https://overwatch.blizzard.com/ja-jp/) played on 2022/10/08, 2022/10/09
 * [Pacify](https://store.steampowered.com/app/967050/Pacify/) played on 2021/08/04
+* [Palworld](https://store.steampowered.com/app/1623730/Palworld/) played on 2024/01/19, 2024/01/20
 * [Passpartout: The Starving Artist](https://store.steampowered.com/app/582550/Passpartout_The_Starving_Artist/) played on 2022/02/17
 * [Pineapple on pizza](https://www.majorariatto.com/pineapple-on-pizza) played on 2023/04/05
 * [Pokémon Brilliant Diamond and Pokémon Shining Pearl](https://www.pokemon.co.jp/ex/bdsp/ja/) played on 2021/11/19-2021/11/24, 2021/11/26, 2021/11/27, 2021/12/09, 2021/12/10, 2021/12/14
@@ -136,4 +137,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Palworld](https://store.steampowered.com/app/1623730/Palworld/) played on 2024/01/19, 2024/01/20
