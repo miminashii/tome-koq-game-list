@@ -126,6 +126,7 @@
 * [ハッピークズトピア](https://happykuzutopia.cyberstep.com/) played on 2021/10/14
 * [メイドインアビス 闇を目指した連星](https://www.spike-chunsoft.co.jp/miabyss/top.html) played on 2022/09/06, 2022/09/08
 * [不思議のダンジョン 風来のシレン5plus](https://www.spike-chunsoft.co.jp/shiren5plus/) played on 2022/05/14
+* [不思議のダンジョン　風来のシレン６　とぐろ島探検録](https://www.spike-chunsoft.co.jp/shiren6/) played on 2024/01/29, 2024/01/30
 * [亡霊島殺人事件 Final loop【マーダーミステリーonline】](https://booth.pm/ja/items/3608958) played on 2022/03/25
 * [亡霊島殺人事件 Next loop【マーダーミステリーonline】](https://booth.pm/ja/items/1701643) played on 2021/07/28
 * [亡霊島殺人事件【マーダーミステリーonline】](https://booth.pm/ja/items/1624107) played on 2021/06/29
@@ -137,4 +138,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [不思議のダンジョン　風来のシレン６　とぐろ島探検録](https://www.spike-chunsoft.co.jp/shiren6/) played on 2024/01/29, 2024/01/30
