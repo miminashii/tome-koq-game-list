@@ -85,6 +85,7 @@
 * [Pokémon Brilliant Diamond and Pokémon Shining Pearl](https://www.pokemon.co.jp/ex/bdsp/ja/) played on 2021/11/19-2021/11/24, 2021/11/26, 2021/11/27, 2021/12/09, 2021/12/10, 2021/12/14
 * [Pokémon Legends: Arceus](https://www.pokemon.co.jp/ex/legends_arceus/ja/) played on 2022/01/28
 * [Pokémon UNITE](https://www.pokemonunite.jp/ja/) played on 2021/06/24, 2021/07/21, 2021/07/22
+* [POSTAL 4: No Regerts](https://store.steampowered.com/app/707030/POSTAL_4_No_Regerts/) played on 2024/02/17
 * [Pummel Party](https://store.steampowered.com/app/880940/Pummel_Party/) played on 2021/11/16
 * [Quest Rooms](https://store.steampowered.com/app/1234550/Quest_Rooms/) played on 2021/11/25
 * [Refind Self: 性格診断ゲーム](https://playism.com/game/refindself/) played on 2023/11/19
@@ -140,4 +141,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [POSTAL 4: No Regerts](https://store.steampowered.com/app/707030/POSTAL_4_No_Regerts/) played on 2024/02/17
