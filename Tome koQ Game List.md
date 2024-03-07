@@ -46,6 +46,7 @@
 * [Eronoctosis: Put Yourself Together](https://store.steampowered.com/app/1683860/Eronoctosis_Put_Yourself_Together/) played on 2021/10/24
 * [Escape from Tarkov](https://www.escapefromtarkov.com/) played on 2023/08/07, 2023/08/08, 2023/08/10, 2023/08/11, 2023/08/13, 2023/08/15, 2023/08/16, 2023/08/18, 2023/08/19, 2023/09/06, 2023/09/07, 2023/09/10, 2023/09/11, 2023/09/17-2023/09/19, 2023/09/22, 2023/09/24-2023/09/26, 2023/10/01, 2023/10/04, 2023/10/05, 2023/10/07, 2023/10/09, 2023/10/11, 2023/10/13, 2023/10/15-2023/10/17, 2023/10/20-2023/10/23, 2023/10/25, 2023/10/29, 2023/10/31, 2023/11/02-2023/11/14, 2023/12/28-2024/01/15, 2024/01/17-2024/01/19
 * [Exoprimal](https://www.exoprimal.com/en-asia/) played on 2023/07/15
+* [FINAL FANTASY VII REBIRTH](https://www.jp.square-enix.com/ffvii_rebirth/) played on 2024/03/06, 2024/03/07
 * [FINAL FANTASY X](https://www.jp.square-enix.com/ffx_x-2HD/) played on 2022/05/26, 2022/05/28, 2022/05/29, 2022/06/04-2022/06/06, 2022/06/10, 2022/06/18, 2022/06/19, 2022/06/26
 * [fingger](https://fingger.com/) played on 2021/10/11, 2021/10/17, 2021/10/22
 * [Fit Boxing 2](https://fitboxing.net/2/) played on 2021/11/01
@@ -142,4 +143,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [FINAL FANTASY VII REBIRTH](https://www.jp.square-enix.com/ffvii_rebirth/) played on 2024/03/06, 2024/03/07
