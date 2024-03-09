@@ -40,6 +40,7 @@
 * [Demon's Souls](https://www.playstation.com/ja-jp/games/demons-souls/) played on 2022/07/02, 2022/07/03, 2022/07/09
 * [Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/) played on 2021/05/26, 2021/07/17, 2021/07/19, 2021/07/20, 2021/07/24, 2021/07/25, 2021/07/27
 * [Diablo IV](https://diablo4.blizzard.com/ja-jp/) played on 2023/06/01-2023/06/16, 2023/06/18-2023/07/05, 2023/07/07-2023/07/10, 2023/07/21, 2023/07/23-2023/07/27
+* [Dragon's Dogma 2](https://www.dragonsdogma.com/2/ja-jp/) played on 2024/03/09
 * [eBASEBALLパワフルプロ野球2022](https://www.konami.com/pawa/2022/) played on 2022/05/02-2022/05/04, 2022/05/19
 * [ELDEN RING](https://www.eldenring.jp/index.html) played on 2022/02/24-2022/03/08, 2022/03/20, 2022/03/21, 2022/04/09, 2022/04/10, 2022/04/23, 2022/04/30, 2022/05/01
 * [ENDER LILIES: Quietus of the Knights](https://en.enderlilies.com/) played on 2021/08/06, 2021/08/09
@@ -143,4 +144,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Dragon's Dogma 2](https://www.dragonsdogma.com/2/ja-jp/) played on 2024/03/09
