@@ -14,7 +14,7 @@
 * [ARK: Survival Evolved](https://www.spike-chunsoft.co.jp/ark/) played on 2022/06/15
 * [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/29
 * [Atomic Heart](https://www.focus-entmt.com/en/games/atomic-heart) played on 2023/02/20-2023/02/23, 2023/03/01, 2023/03/02
-* [Backpack Battles](https://store.steampowered.com/app/2427700/Backpack_Battles/?l=japanese) played on 2023/11/19, 2023/11/30
+* [Backpack Battles](https://store.steampowered.com/app/2427700/Backpack_Battles/?l=japanese) played on 2023/11/19, 2023/11/30, 2024/03/09
 * [Balatro](https://store.steampowered.com/app/2379780/Balatro/?l=japanese) played on 2024/02/27, 2024/02/28
 * [Baldur's Gate 3](https://baldursgate3.game/) played on 2023/12/21-2023/12/27
 * [BattleBit Remastered](https://joinbattlebit.com/) played on 2023/07/17
