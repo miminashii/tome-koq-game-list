@@ -24,6 +24,7 @@
 * [BIOHAZARD RE:4](https://www.residentevil.com/re4/en-asia/) played on 2023/04/08-2023/04/11
 * [BIOHAZARD VILLAGE](https://www.residentevil.com/village/jp/) played on 2021/05/09, 2021/05/10, 2021/05/21, 2021/05/23, 2021/05/29-2021/06/01, 2021/06/03
 * [Bloodborne](https://www.playstation.com/ja-jp/games/bloodborne/) played on 2022/02/06, 2022/02/11-2022/02/13, 2022/02/19, 2022/02/20
+* [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) played on 2024/04/11, 2024/04/12
 * [Bum Simulator](https://store.steampowered.com/app/855740/Bum_Simulator/) played on 2021/08/29, 2021/09/01
 * [Call of Duty: Modern Warfare III](https://www.callofduty.com/ja/modernwarfare3) played on 2023/11/19
 * [CODENAMES ONLINE](https://codenames.game/) played on 2022/03/27
@@ -146,4 +147,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) played on 2024/04/11, 2024/04/12
