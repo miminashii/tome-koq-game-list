@@ -69,6 +69,7 @@
 * [LITTLE NIGHTMARES](https://ln.bn-ent.net/) played on 2021/12/16
 * [Lobotomy Corporation | Monster Management Simulation](https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/) played on 2021/08/18
 * [Lords Mobile](https://lordsmobile.igg.com/jp/) played on 2021/08/07, 2021/08/21
+* [MACHO SPINNER](https://store.steampowered.com/app/2617350/_/)（冒頭少しだけプレイ） played on 2024/04/19
 * [Mario Kart 8 Deluxe](https://www.nintendo.co.jp/switch/aabpa/index.html) played on 2022/05/27
 * [Mario Kart Live: Home Circuit](https://www.nintendo.co.jp/switch/rmaaa/index.html) played on 2022/04/29
 * [Minecraft](https://www.minecraft.net/ja-jp) played on 2021/09/29, 2021/10/05, 2021/10/13, 2021/10/18, 2021/10/21, 2021/10/26, 2021/10/30, 2022/06/24
@@ -147,4 +148,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [MACHO SPINNER](https://store.steampowered.com/app/2617350/_/)（冒頭少しだけプレイ） played on 2024/04/19
