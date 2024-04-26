@@ -106,6 +106,7 @@
 * [Splatoon 3](https://www.nintendo.co.jp/switch/av5ja/index.html) played on 2022/09/12, 2022/09/18, 2022/09/19, 2022/09/25, 2022/10/08
 * [Starfield](https://bethesda.net/ja/game/starfield) played on 2023/09/01-2023/09/03
 * [Starship Troopers: Extermination](https://starshiptroopersextermination.com/) played on 2023/05/18
+* [Stellar Blade](https://www.playstation.com/ja-jp/games/stellar-blade/) played on 2024/04/26, 2024/04/27
 * [SuchArt: Genius Artist Simulator](https://store.steampowered.com/app/1293180/SuchArt/) played on 2021/07/30
 * [Surgeon Simulator 2](https://www.surgeonsim.com/) played on 2021/07/02
 * [Survival Quiz CITY](https://sqcgame.com/) played on 2021/10/16
@@ -148,4 +149,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Stellar Blade](https://www.playstation.com/ja-jp/games/stellar-blade/) played on 2024/04/26, 2024/04/27
