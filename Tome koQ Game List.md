@@ -10,6 +10,7 @@
 * [Ancestors: The Humankind Odyssey](https://store.steampowered.com/app/536270/Ancestors_The_Humankind_Odyssey/) played on 2021/08/19, 2021/08/20, 2021/08/24
 * [Animal Fight Club](https://store.steampowered.com/app/1022780/Animal_Fight_Club/) played on 2021/10/03
 * [Apex Legends](https://www.ea.com/ja-jp/games/apex-legends) played on 2021/04/27, 2021/04/28, 2021/05/03, 2021/07/15, 2021/07/29, 2021/07/30, 2021/08/06, 2021/08/08-2021/08/10, 2021/08/16, 2021/09/05-2021/09/23, 2021/10/01, 2021/10/02, 2021/10/19, 2021/10/20, 2021/11/03, 2021/11/06, 2021/11/07, 2021/11/09, 2023/10/01
+* [Arctic Eggs](https://store.steampowered.com/app/2763670/Arctic_Eggs/) played on 2024/05/23
 * [ARK: Survival Ascended](https://store.steampowered.com/app/2399830/ARK_Survival_Ascended/) played on 2023/10/26
 * [ARK: Survival Evolved](https://www.spike-chunsoft.co.jp/ark/) played on 2022/06/15
 * [Armored Core VI: Fires of Rubicon](https://store.steampowered.com/app/1888160/ARMORED_CORE_VI_FIRES_OF_RUBICON/) played on 2023/08/25-2023/08/29
@@ -150,4 +151,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [Arctic Eggs](https://store.steampowered.com/app/2763670/Arctic_Eggs/) played on 2024/05/23
