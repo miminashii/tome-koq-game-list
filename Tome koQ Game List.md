@@ -151,3 +151,4 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
+* [Bodycam](https://store.steampowered.com/app/2406770/Bodycam/) played on 2024/06/08, 2024/06/09
