@@ -118,6 +118,7 @@
 * [Teeth Brushing Simulator](https://store.steampowered.com/app/1073220/Teeth_Brushing_Simulator/) played on 2022/01/11
 * [The Baby In Yellow](https://store.steampowered.com/app/2291340/The_Baby_In_Yellow/?l=japanese) played on 2021/12/20
 * [The Exit 8](https://steamcommunity.com/app/2653790) played on 2023/12/01
+* [The First Descendant](https://store.steampowered.com/app/2074920/The_First_Descendant/) played on 2024/07/02, 2024/07/03
 * [The Legend of Zelda: Tears of the Kingdom](https://zelda.nintendo.com/tears-of-the-kingdom/) played on 2023/05/11-2023/05/14, 2023/05/16, 2023/05/17, 2023/05/23, 2023/05/28
 * [The Lord of the Rings: Gollum](https://gollumgame.com/)（冒頭少しだけプレイ） played on 2023/05/26
 * [The Outlast Trials](https://store.epicgames.com/en-US/p/the-outlast-trials) played on 2023/05/19, 2023/05/20
@@ -154,4 +155,3 @@
 * [薔薇と椿](https://playism.com/game/rose-and-camellia/) played on 2021/10/31
 * [陶芸マスター](https://store.steampowered.com/app/1160490/_/?l=japanese) played on 2022/02/01
 * [龍が如く7 光と闇の行方](https://ryu-ga-gotoku.com/seven/) played on 2021/05/17
-* [The First Descendant](https://store.steampowered.com/app/2074920/The_First_Descendant/) played on 2024/07/02, 2024/07/03
