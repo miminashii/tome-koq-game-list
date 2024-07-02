@@ -35,7 +35,7 @@
 * [Cuphead](https://store.steampowered.com/app/268910/Cuphead/) played on 2021/12/22, 2021/12/23
 * [Cyberpunk 2077](https://www.cyberpunk.net/jp/ja/)（冒頭キャラメイクのみプレイ） played on 2022/12/30
 * [Danganronpa: Trigger Happy Havoc](https://store.steampowered.com/app/413410/_/) played on 2023/07/18
-* [Dark and Darker](https://www.darkanddarker.com/) played on 2024/06/28, 2024/06/29
+* [Dark and Darker](https://www.darkanddarker.com/) played on 2024/06/28, 2024/06/29, 2024/07/01, 2024/07/02
 * [DARK SOULS II](https://store.steampowered.com/app/236430/DARK_SOULS_II/) played on 2021/12/30, 2021/12/31, 2022/01/02, 2022/01/04, 2022/01/05, 2022/01/08
 * [DARK SOULS III](https://store.steampowered.com/app/374320/DARK_SOULS_III/) played on 2022/01/09, 2022/01/10, 2022/01/15, 2022/01/16, 2022/01/22, 2022/01/23, 2022/01/29, 2022/01/30, 2022/02/05
 * [DARK SOULS: REMASTERED](https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/) played on 2021/12/04, 2021/12/05, 2021/12/11, 2021/12/18, 2021/12/19, 2021/12/26, 2021/12/29
