@@ -114,7 +114,7 @@
 * [SuchArt: Genius Artist Simulator](https://store.steampowered.com/app/1293180/SuchArt/) played on 2021/07/30
 * [Surgeon Simulator 2](https://www.surgeonsim.com/) played on 2021/07/02
 * [Survival Quiz CITY](https://sqcgame.com/) played on 2021/10/16
-* [Teamfight Tactics](https://teamfighttactics.leagueoflegends.com/ja-jp/) played on 2024/06/28
+* [Teamfight Tactics](https://teamfighttactics.leagueoflegends.com/ja-jp/) played on 2024/06/28, 2024/07/16
 * [Teeth Brushing Simulator](https://store.steampowered.com/app/1073220/Teeth_Brushing_Simulator/) played on 2022/01/11
 * [The Baby In Yellow](https://store.steampowered.com/app/2291340/The_Baby_In_Yellow/?l=japanese) played on 2021/12/20
 * [The Exit 8](https://steamcommunity.com/app/2653790) played on 2023/12/01
